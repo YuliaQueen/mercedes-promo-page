@@ -10,7 +10,6 @@ btns.forEach((btnItem, index) => {
             })
         } else {
             btns.forEach((item) => {
-                item.classList.remove('feature__link_active');
                 item.nextElementSibling.classList.add('hidden');
             })            
             btnItem.classList.add('feature__link_active');
